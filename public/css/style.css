@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navigation_bar{
+	background-color: #cd1440;
+	border-bottom: none;
+}
+.navigation_bar .navbar-nav li a{
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.navfix{
+	margin-top: 50px;
+}
+
+.blue_bg{
+	background-color: #0e152e;
+}
+.light_blue_bg{
+	background-color: #00a1cb;
+}
+.light_green_bg{
+	background-color: #7dcfcb;
+}
+.dark_blue_bg{
+	background-color: #14192a;
+}
+.content_wrapper .content{
+	
+	position: relative;
+	padding:100px 20px;
+}
+.content_wrapper .content .img-container{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	background-color:#7dcfcb;
+	padding:5px;
+	border-radius: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.content_wrapper .content .img-container img{
+	max-height: 100%;
+	max-width: 100%;
+	padding:4px;
+	border-radius: 500px;
+}
+.content_wrapper .content .jumbotron{
+	background-color: transparent;
+	color:#fff;
+	text-transform: uppercase;
+	padding:10px 0px;
+}
+.content_wrapper .content .jumbotron h1{
+	font-size: 2.5rem;
+}
+.content_wrapper .content .jumbotron h3{
+	font-size: 2.3rem;
+	font-weight: normal;
+	color:#b7bac1;
+}
+.technologies{
+	padding:10px;
+	border:1px solid #232839;
+	margin:20px auto;
+	border-radius: 5px;
+	background-color: #232839;
+}
+.technologies .tech_list{
+	padding:0;
+	list-style-type: none;
+	margin: 0;
+}
+.technologies .tech_list li{
+	position: relative;
+	display: inline-block;
+	margin:10px;
+}
+
+.technologies .tech_list li img{
+	max-height: 100px;
+    max-width: 100px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+
+.projects h1{
+	color:#212121;
+	font-size: 2.5rem;
+}
+.projects .jumbotron h3{
+	color:#313131 !important;
+	font-size: 1.8rem !important;
+	margin:20px auto;
+	line-height: 3rem;
+}
+.projects .jumbotron h3 a{
+	color:#000;
+	text-decoration: none;
+	font-size: 2.5rem;
+}
+.projects .other_projects{
+	text-align: left;
+	color:#232839;
+}
+.projects .other_projects h4{
+	text-decoration: underline;
+}
+.projects .other_projects ul{
+	padding:0;
+	list-style-type: none;
+} 
+.projects .other_projects ul li{
+	margin:10px auto;
+}
+.projects .other_projects ul li a{
+	color:#383838;
+	font-size: 1.6rem;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.contact .mail,
+.contact .phone{
+	margin:10px auto;
+	text-transform: lowercase;
+}
+.contact .mail span,
+.contact .phone span{
+font-size: 2rem;
+text-transform: capitalize;
+}
+.tech_comm {
+	list-style-type: none;
+	padding:0;
+	text-align: center;
+}
+.tech_comm li{
+	display: inline-block;
+	margin: 20px;
+}
+.tech_comm li a{
+	text-align: center;
+	color:#fff;
+	font-size: 1.8rem;
+	text-decoration: none;
+}
