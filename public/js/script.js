@@ -1,3 +1,5 @@
-$('.nav a').on('click', function(){
-    $('.navbar-toggle').click() //bootstrap 3.x by Richard
+$(document).ready(function(){
+	$(".nav li a").on('click',function(){
+		$(".collapse.in").removeClass("in");
+	});
 });
